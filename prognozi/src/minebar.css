@@ -1,0 +1,45 @@
+.mine-1 {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.mine-2 {
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+.max {
+  background-color: orangered;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.min {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.mine-3 {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+.mine {
+  margin-top: 30px;
+}
+
+span {
+  font-size: 20px;
+  display: block;
+}

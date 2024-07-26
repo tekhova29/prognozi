@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div1 {
+  background-image: url("../public/img/Kutaisi-1.jpg");
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  border-radius: 20px;
+  height: 517px;
+  width: 1030px;
+}
+
+.div3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 40%;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.div4 {
+  width: 60%;
+}
+
+.side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.side h1 {
+  font-size: 70px;
+}
+
+.side p {
+  font-size: 25px;
+}
+
+.side h2 {
+  font-size: 80px;
+}
+
+.side h3 {
+  font-size: 35px;
+}
+
+.div-mine {
+  width: 60%;
+}
+
+input {
+  width: 367px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.4);
+  border-color: white;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+button {
+  width: 120px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.side img {
+  width: 100px;
+}
