@@ -29,11 +29,7 @@ function Day({ days, change, change1 }) {
           >
             <h1>{func1(index)}</h1>
             <h2>{((item.temp - 32) / 1.8).toFixed()}°C</h2>
-            <img
-              className="img-1"
-              src={`../public/img/${item.icon}.png`}
-              alt=""
-            />
+            <img className="img-1" src={`/img/${item.icon}.png`} alt="" />
           </div>
         ))}
       </div>

@@ -6,7 +6,7 @@ function Minebar({ weather }) {
     <div className="mine">
       <div className="mine-1">
         <h1>{weather.place}</h1>
-        <img src="../public/img/loca.png" alt="" />
+        <img src="/img/loca.png" alt="" />
       </div>
       <div className="mine-2">
         <div>
@@ -22,17 +22,17 @@ function Minebar({ weather }) {
         <div>
           <p>{weather.feels}</p>
           <span>Feels like</span>
-          <img src="../public/img/Group.png" alt="" />
+          <img src="/img/Group.png" alt="" />
         </div>
         <div>
           <p>{weather.humidity}%</p>
           <span>Humidity</span>
-          <img src="../public/img/Vector.png" alt="" />
+          <img src="/img/Vector.png" alt="" />
         </div>
         <div>
           <p>{weather.wind} m/s</p>
           <span>Wind</span>
-          <img src="../public/img/Shape.png" alt="" />
+          <img src="/img/Shape.png" alt="" />
         </div>
       </div>
     </div>
